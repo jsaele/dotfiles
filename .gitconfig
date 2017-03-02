@@ -1,0 +1,8 @@
+[user]
+  name = Joakim Sælemyr
+  email = joakim.saelemyr@gmail.com
+
+[alias]
+  s = status
+  co = checkout
+
