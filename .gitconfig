@@ -6,3 +6,5 @@
   s = status
   co = checkout
 
+[credential]
+	helper = cache
