@@ -5,6 +5,8 @@
 [alias]
   s = status
   co = checkout
+  aa = add -A
+  cm = commit -m
 
 [credential]
   helper = cache
