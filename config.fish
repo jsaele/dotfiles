@@ -14,7 +14,7 @@ function ..
 end
 
 function g
-    git
+    git $argv
 end
 
 function dev
