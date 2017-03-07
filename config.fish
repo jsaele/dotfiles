@@ -3,7 +3,22 @@
 #end
 
 
-alias .. = "cd .."
-alias ... = "cd ../.."
-alias g = "git"
-alias dev = " cd ~/dev/"
+# Aliases
+
+function ...
+    cd ../..
+end
+
+function ..
+    cd ..
+end
+
+function g
+    git
+end
+
+function dev
+    cd ~/dev
+end
+
+# - Aliases end
