@@ -45,6 +45,7 @@
   [[default]]
     background_color = "#443333"
     background_image = None
+    scrollback_lines = 5000
     cursor_color = "#bbbbbb"
     font = Meslo LG M DZ for Powerline 11
     foreground_color = "#dacee0"

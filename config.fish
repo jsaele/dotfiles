@@ -21,4 +21,12 @@ function dev
     cd ~/dev
 end
 
+function rainfall
+    cd ~/dev/rainfall
+end
+
+function spotify
+    /usr/bin/spotify --force-device-scale-factor=2.0
+end
+
 # - Aliases end
