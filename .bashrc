@@ -127,3 +127,5 @@ export TERM=xterm-256color
 
 
 alias spotify="/usr/bin/spotify --force-device-scale-factor=2.5"
+
+export PATH=/home/joakim/bin:$PATH
