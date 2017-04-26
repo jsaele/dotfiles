@@ -21,6 +21,10 @@ function dev
     cd ~/dev
 end
 
+function joakim
+    cd ~/dev/joakim
+end
+
 function rainfall
     cd ~/dev/rainfall
 end
