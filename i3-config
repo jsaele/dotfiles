@@ -154,4 +154,28 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
         tray_output primary
+
 }
+
+
+# My config
+
+
+# Background
+exec --no-startup-id xsetroot -solid "#333333"
+
+
+# Keyboard layout
+exec "setxkbmap -layout no,us"
+exec "setxkbmap -option 'grp:ctrl_alt_toggle'" # FIX THIS STUPID SHIT
+
+bindsym $mod+Shift+i exec --no-startup-id setxkbmap -option 'grp:super_i_toggle'
+
+# Volume controls
+# Pulse Audio controls
+bindsym F1 exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+bindsym F2 exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+bindsym F3 exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+bindsym F4 exec playerctl --player=spotify previous
+bindsym F5 exec playerctl --player=spotify play-pause
+bindsym F6 exec playerctl --player=spotify next
