@@ -164,7 +164,6 @@ bar {
 # Background
 exec --no-startup-id xsetroot -solid "#333333"
 
-
 # Keyboard layout
 exec "setxkbmap -layout no,us"
 exec "setxkbmap -option 'grp:ctrl_alt_toggle'" # FIX THIS STUPID SHIT
