@@ -10,6 +10,12 @@ then
 fi
 
 
+# Ag - the silver searcher
+if [ !ag ]
+then
+    sudo apt-get install silversearcher-ag
+fi
+
 # i3
 
 if [ !i3 ]
