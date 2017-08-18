@@ -13,3 +13,6 @@
 
 [credential]
 	helper = store
+
+[core]
+	autocrlf = true
