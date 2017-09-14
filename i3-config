@@ -169,9 +169,7 @@ exec --no-startup-id xsetroot -solid "#333333"
 
 # Keyboard layout
 exec --no-startup-id setxkbmap -layout no,us
-exec --no-startup-id setxkbmap -option 'grp:ctrl_alt_toggle'
-
-bindsym $mod+Shift+i exec --no-startup-id setxkbmap -option 'grp:super_i_toggle'
+exec --no-startup-id setxkbmap -option 'grp:alt_space_toggle'
 
 # Volume controls
 # playerctl controls
