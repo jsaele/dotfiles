@@ -66,4 +66,8 @@ function spotify
     /usr/bin/spotify --force-device-scale-factor=2.0
 end
 
+function scaleStuff
+    xrandr --output DP1 --scale 2x2
+end
+
 # - Aliases end

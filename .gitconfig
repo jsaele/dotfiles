@@ -16,3 +16,6 @@
 
 [core]
 	autocrlf = true
+	
+[merge]
+    tool = kdiff3
