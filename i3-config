@@ -192,8 +192,8 @@ bindsym XF86AudioPlay exec playerctl --player=spotify play-pause
 bindsym XF86AudioNext exec playerctl --player=spotify next
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
 
 
 # monitor
