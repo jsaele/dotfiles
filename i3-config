@@ -174,20 +174,27 @@ exec --no-startup-id setxkbmap -option 'grp:alt_space_toggle'
 # Volume controls
 # playerctl controls
 # TODO: bind back to audio buttons instead
-bindsym F1 exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
-bindsym F2 exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym F3 exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym F4 exec playerctl --player=spotify previous
-bindsym F5 exec playerctl --player=spotify play-pause
-bindsym F6 exec playerctl --player=spotify next
+# bindsym F1 exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+# bindsym F2 exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+# bindsym F3 exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+# bindsym F4 exec playerctl --player=spotify previous
+# bindsym F5 exec playerctl --player=spotify play-pause
+# bindsym F6 exec playerctl --player=spotify next
 
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+# amixer set Master 5%+
+# amixer set Master 5%-
 
 bindsym XF86AudioPrev exec playerctl --player=spotify previous
 bindsym XF86AudioPlay exec playerctl --player=spotify play-pause
 bindsym XF86AudioNext exec playerctl --player=spotify next
 
+# Sreen brightness controls
+bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
 
--- XF86AudioMute
+
+# monitor
+bindsym $mod+Shift+s exec --no-startup-id i3monitorstuff
