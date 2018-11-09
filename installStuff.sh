@@ -23,10 +23,15 @@ then
     sudo apt install i3 -y
 fi
 
+if [ !xbacklight ]
+then
+    sudo apt install xbacklight -y
+fi
+
 # playerctl for spotify and other stuff volume controls. command not working properly
 if [ !playerctl ]
 then
-    wget https://github.com/acrisci/playerctl/releases/download/v0.5.0/playerctl-0.5.0_amd64.deb | sudo dpkg -i playerctl-0.5.0_amd64.deb 
+    wget https://github.com/acrisci/playerctl/releases/download/v0.6.1/playerctl-0.6.1_amd64.deb | sudo dpkg -i playerctl-0.6.1_amd64.deb
 fi
 
 # Terminator
@@ -81,6 +86,15 @@ then
 #    rm temp.tgz;
 #    mkdir ~/bin;
 #    mv elm-format ~/bin
+fi
+
+if [ !dotnet ]
+then
+    wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
+    sudo dpkg -i packages-microsoft-prod.deb
+    sudo apt-get install apt-transport-https
+    sudo apt-get update
+    sudo apt-get install dotnet-sdk-2.1
 fi
 
 # add all the stuff you need here.
