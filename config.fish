@@ -66,8 +66,16 @@ function spotify
     /usr/bin/spotify --force-device-scale-factor=2.0
 end
 
-function scaleStuff
+function scaleX2
     xrandr --output DP1 --scale 2x2
+end
+
+function leftOfeDP1
+    xrandr --output DP1 --auto --left-of eDP1
+end
+
+function setBrightness
+    xrandr --output eDP1 --brightness $argv
 end
 
 # - Aliases end
