@@ -50,6 +50,9 @@ then
     sudo apt-get install fish
 fi
 
+# set Fish as default shell
+sudo chsh -s /usr/bin/fish
+
 # Curl
 
 if [ !curl ]
