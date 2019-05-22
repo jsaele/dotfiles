@@ -63,7 +63,7 @@ function rainfall
 end
 
 function spotify
-    /usr/bin/spotify --force-device-scale-factor=2.0
+    /snap/bin/spotify --force-device-scale-factor=1.0 # 2 for 2x
 end
 
 function scaleX2

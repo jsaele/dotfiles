@@ -2,12 +2,12 @@ s#!/bin/sh
 
 # Emacs
 
-#if [ !emacs25 ]
-#then    
-#    sudo add-apt-repository ppa:kelleyk/emacs
-#    sudo apt-get update
-#    sudo apt-get install emacs25 -y
-#fi
+if [ !emacs26 ]
+then
+    sudo add-apt-repository ppa:kelleyk/emacs
+    sudo apt update
+    sudo apt install emacs26 -y
+fi
 
 
 # Ag - the silver searcher
