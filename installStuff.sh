@@ -68,6 +68,17 @@ then
     sudo apt install npm
 fi
 
+# For lsp-mode
+if [ !javascript-typescript-langserver ]
+then
+    sudo npm i -g javascript-typescript-langserver
+fi
+
+if [ !eslint ]
+then
+    sudo npm i -g eslint eslint-plugin-jest
+    sudo npm i -g eslint-plugin-react eslint-plugin-a11y
+fi
 
 # TypeScript
 
