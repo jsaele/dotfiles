@@ -77,7 +77,8 @@ fi
 if [ !eslint ]
 then
     sudo npm i -g eslint eslint-plugin-jest
-    sudo npm i -g eslint-plugin-react eslint-plugin-a11y
+    sudo npm i -g eslint-plugin-react eslint-plugin-jsx-a11y
+    sudo npm i -g eslint-config-airbnb eslint-plugin-import
 fi
 
 # TypeScript
