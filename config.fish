@@ -74,6 +74,10 @@ function leftOfeDP1
     xrandr --output DP1 --auto --left-of eDP1
 end
 
+function rightOfeDP1
+    xrandr --output DP1 --auto --right-of eDP1
+end
+
 function setBrightness
     xrandr --output eDP1 --brightness $argv
 end
