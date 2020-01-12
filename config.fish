@@ -62,6 +62,14 @@ function rainfall
     cd ~/dev/rainfall
 end
 
+function ybapp
+    cd ~/dev/yachtbois/app; and npm start
+end
+
+function ybsrv
+    cd ~/dev/yachtbois/server; and npm start
+end
+
 function spotify
     /snap/bin/spotify --force-device-scale-factor=1.0 # 2 for 2x
 end
