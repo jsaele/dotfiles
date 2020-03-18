@@ -13,3 +13,4 @@ mkdir -p .config/terminator && ln -s ../../$1/dotfiles/terminator-config .config
 mkdir -p .config/i3 && ln -s ../../$1/dotfiles/i3-config .config/i3/config
 mkdir -p .config/i3status && ln -s ../../$1/dotfiles/i3status-config .config/i3status/config
 mkdir -p .fonts && ln -s ../$1/dotfiles/PowerlineSymbols.otf .fonts/PowerlineSymbols.otf
+mkdir -p .ssh && ln -s ~/$1/dotfiles/.ssh-config .ssh/config
