@@ -76,6 +76,10 @@ function rainfall
     cd ~/dev/rainfall
 end
 
+function imove
+    cd ~/dev/imove
+end
+
 function ybapp
     cd ~/dev/yachtbois/app; and npm start
 end
