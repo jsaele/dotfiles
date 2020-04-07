@@ -46,9 +46,9 @@ end
 #  cd $DIR
 #}
 
-function dev
-   bash ~/.npm-global/bin/dev $argv
-end
+#function dev
+#   bash ~/.npm-global/bin/dev $argv
+#end
 
 # annet
 
