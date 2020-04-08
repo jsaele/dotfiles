@@ -38,17 +38,11 @@ end
 
 # Aliases
 
-# imove. port to fish and make fish work with the stuffz
+# imove
 
-#function d(){
-#  DIR=`dev cd $1`
-#  echo $DIR
-#  cd $DIR
-#}
-
-#function dev
-#   bash ~/.npm-global/bin/dev $argv
-#end
+function irun
+   cd ~/dev/imove/; and dev run $argv
+end
 
 # annet
 
