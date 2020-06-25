@@ -71,15 +71,15 @@ function rainfall
 end
 
 function imove
-    cd ~/dev/imove
+    cd ~/dev/imove2
 end
 
-function ybapp
-    cd ~/dev/yachtbois/app; and npm start
+function fako
+    cd ~/dev/fako
 end
 
-function ybsrv
-    cd ~/dev/yachtbois/server; and npm start
+function runfako
+    cd ~/dev/fako/fako-web; and npm run dev
 end
 
 function spotify
