@@ -46,6 +46,10 @@ end
 
 # annet
 
+function k
+  kubectl $argv
+end            
+
 function ...
     cd ../..
 end
@@ -71,7 +75,7 @@ function rainfall
 end
 
 function imove
-    cd ~/dev/imove2
+    cd ~/dev/imove
 end
 
 function fako
