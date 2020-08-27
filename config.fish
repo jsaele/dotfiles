@@ -62,6 +62,10 @@ function g
     git $argv
 end
 
+function la
+    ls -la
+end
+
 function devv
     cd ~/dev
 end
@@ -76,6 +80,10 @@ end
 
 function imove
     cd ~/dev/imove
+end
+
+function packages
+    cd ~/dev/imove/packages
 end
 
 function fako
