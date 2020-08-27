@@ -63,7 +63,7 @@ function g
 end
 
 function la
-    ls -la
+    ls -la $argv
 end
 
 function devv
