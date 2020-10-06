@@ -46,9 +46,13 @@ end
 
 # annet
 
+function dcd
+  dev cd $argv
+end
+
 function k
   kubectl $argv
-end            
+end
 
 function ...
     cd ../..
