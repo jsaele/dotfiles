@@ -119,3 +119,5 @@ function setBrightness
 end
 
 # - Aliases end
+
+starship init fish | source
