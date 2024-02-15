@@ -44,8 +44,6 @@ function irun
    cd ~/dev/imove/; and dev run $argv
 end
 
-# annet
-
 function dcd
   dev cd $argv
 end
@@ -66,11 +64,19 @@ function g
     git $argv
 end
 
+function p
+    pip3 $argv
+end
+
 function la
     ls -la $argv
 end
 
 function devv
+    cd ~/dev
+end
+
+function dev
     cd ~/dev
 end
 
@@ -120,4 +126,4 @@ end
 
 # - Aliases end
 
-starship init fish | source
+#starship init fish | source
