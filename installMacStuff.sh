@@ -12,10 +12,10 @@ then
     brew install fish
 fi
 
-if ! command -v starship &> /dev/null
+if ! mdfind "kMDItemKind == 'Application'" | grep "Rectangle.app" &> /dev/null
 then
-    echo "------ Installing starship"
-    brew install starship
+    echo "------ Installing Rectangle"
+    brew install --cask rectangle
 fi
 
 echo "Installed all missing deps"
