@@ -18,4 +18,16 @@ then
     brew install --cask rectangle
 fi
 
+if ! mdfind "kMDItemKind == 'Application'" | grep "iTerm.app" &> /dev/null
+then
+    echo "------ Installing Iterm2"
+    brew install --cask iterm2
+fi
+
+if ! mdfind "kMDItemKind == 'Application'" | grep "iTerm.app" &> /dev/null
+then
+    echo "------ Installing Iterm2"
+    brew install --cask iterm2
+fi
+
 echo "Installed all missing deps"
