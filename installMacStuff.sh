@@ -6,6 +6,12 @@ then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
+if ! command -v node &> /dev/null
+then
+    echo "------ Installing node"
+    brew install node
+fi
+
 if ! command -v fish &> /dev/null
 then
     echo "------ Installing fish"
