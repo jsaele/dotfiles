@@ -16,7 +16,7 @@
 	helper = store
 
 [core]
-	autocrlf = true
+	autocrlf = input
 	
 [merge]
     tool = kdiff3

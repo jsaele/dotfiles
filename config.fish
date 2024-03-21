@@ -124,6 +124,14 @@ function setBrightness
     xrandr --output eDP1 --brightness $argv
 end
 
+function extractTranslations
+    cd ~/dev/Advanzia/tools/SanityTranslationsExtractor/SanityTranslationsExtractor/bin/Debug/net8.0/; and ./SanityTranslationsExtractor "/Users/joakims/dev/Advanzia/business-applications/src/CustomerWeb/Assets/public/locales"
+end
+
+function extractTranslations2
+    bash ~/dev/Advanzia/tools/SanityTranslationsExtractor/SanityTranslationsExtractor/bin/Debug/net8.0/SanityTranslationsExtractor
+end
+
 # - Aliases end
 
 #starship init fish | source
